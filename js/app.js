@@ -79,9 +79,9 @@ Player.prototype.handleInput = function (key) {
 // Now instantiate your objects.
 // Place all enemy objects in an array called allEnemies
 // Place the player object in a variable called player
-let e1 = new Enemy(0, 70,  Math.floor(Math.random() * 500));
-let e2 = new Enemy(20, 150,  Math.floor(Math.random() * 300));
-let e3 = new Enemy(60, 230,  Math.floor(Math.random() * 400));
+let e1 = new Enemy(0, 70, Math.floor(Math.random() * 500));
+let e2 = new Enemy(20, 150, Math.floor(Math.random() * 300));
+let e3 = new Enemy(60, 230, Math.floor(Math.random() * 400));
 let allEnemies = [e1, e2, e3];
 let player = new Player(200, 320);
 
